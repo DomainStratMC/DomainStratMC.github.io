@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap');
+
+body {
+    text-align: center;
+    text-decoration: none;
+    background: url("./background.png") no-repeat center center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-color: #b1b1b1;
+
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 0.3rem;
+    border-style: none;
+    font-size: 1.75rem;
+    padding: 0.5rem 1rem;
+    margin: 1.5rem 1rem;
+    background-color: #ffffff;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    background-color: #4ce44c;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background-color: #2cff2c
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
